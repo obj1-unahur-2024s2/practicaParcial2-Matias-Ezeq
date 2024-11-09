@@ -1,9 +1,9 @@
-import example.pepita
+import personajes.*
 
-describe "group of tests for pepita" {
+describe "group of tests" {
 
-  test "pepita has initial energy" {
-    assert.equals(100, pepita.energy())
+  test "true es verdadero" {
+    assert.equals(true, true)
   }
 
 }
